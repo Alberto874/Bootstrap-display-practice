@@ -1,0 +1,15 @@
+.apples {
+    visibility: hidden;
+}
+@media (min-width: 768px) {
+    .apples {
+        visibility: visible;
+        color: red;
+    }
+}
+
+@media (min-width: 1200px) {
+    .apples{
+        color: blue;
+    }
+}
